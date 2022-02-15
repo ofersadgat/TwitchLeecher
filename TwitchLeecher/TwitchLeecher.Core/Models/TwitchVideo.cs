@@ -40,7 +40,7 @@ namespace TwitchLeecher.Core.Models
             Url = url ?? throw new ArgumentNullException(nameof(url));
             Viewable = viewable;
             Muted = muted;
-            Live = live;
+            Live = false;
         }
 
         #endregion Constructors
